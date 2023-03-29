@@ -1,0 +1,16 @@
+{
+    "approach": "der",
+    "prefix": "reproduce",
+    "dataset": "imagenet100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 10,
+    "increment": 10,
+    "batch_size": 128,
+    "model_name": "der",
+    "convnet_type": "resnet18",
+    "device": ["0","1","2","3"],
+    "seed": [0, 1, 2, 3, 4]
+}
